@@ -10,8 +10,6 @@ import SwiftUI
 @main
 struct DadJokesIntakeApp: App {
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        WindowGroup { JokeScreen() }
     }
 }

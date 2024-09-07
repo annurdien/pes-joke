@@ -1,0 +1,24 @@
+{
+  "originHash" : "84a00e37fb4ce0f5787657e2dbb1e751c53d8d4f586bdd2dbddc5988e57e51b7",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "f455c2975872ccd2d9c81594c658af65716e9b9a",
+        "version" : "5.9.1"
+      }
+    },
+    {
+      "identity" : "rive-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rive-app/rive-ios",
+      "state" : {
+        "revision" : "585e092bc0326a9b3003ab62c5f6303bb70214db",
+        "version" : "6.0.7"
+      }
+    }
+  ],
+  "version" : 3
+}

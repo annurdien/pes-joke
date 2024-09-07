@@ -8,17 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		A7BADC0C2C8C30C00038C553 /* DadJokesIntakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC0B2C8C30C00038C553 /* DadJokesIntakeApp.swift */; };
-		A7BADC0E2C8C30C00038C553 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC0D2C8C30C00038C553 /* ContentView.swift */; };
 		A7BADC102C8C30C10038C553 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BADC0F2C8C30C10038C553 /* Assets.xcassets */; };
 		A7BADC132C8C30C10038C553 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BADC122C8C30C10038C553 /* Preview Assets.xcassets */; };
+		A7BADC1B2C8C31200038C553 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A7BADC1A2C8C31200038C553 /* Alamofire */; };
+		A7BADC352C8C34D70038C553 /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC342C8C34D70038C553 /* Joke.swift */; };
+		A7BADC382C8C35470038C553 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC372C8C35470038C553 /* Constant.swift */; };
+		A7BADC3A2C8C35820038C553 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC392C8C35820038C553 /* Enum.swift */; };
+		A7BADC3C2C8C35C70038C553 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC3B2C8C35C70038C553 /* APIClient.swift */; };
+		A7BADC3E2C8C35CE0038C553 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC3D2C8C35CE0038C553 /* APIRouter.swift */; };
+		A7BADC402C8C38720038C553 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC3F2C8C38720038C553 /* JokeViewModel.swift */; };
+		A7BADC422C8C392C0038C553 /* JokeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC412C8C392C0038C553 /* JokeScreen.swift */; };
+		A7BADC452C8C42650038C553 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A7BADC442C8C42650038C553 /* RiveRuntime */; };
+		A7BADC4E2C8C45B30038C553 /* pes.riv in Resources */ = {isa = PBXBuildFile; fileRef = A7BADC4D2C8C45B30038C553 /* pes.riv */; };
+		A7BADC502C8C4A850038C553 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC4F2C8C4A850038C553 /* JokeView.swift */; };
+		A7BADC552C8C52010038C553 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC542C8C52010038C553 /* Logger.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A7BADC2A2C8C32DF0038C553 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A7BADC082C8C30C00038C553 /* DadJokesIntake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokesIntake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7BADC0B2C8C30C00038C553 /* DadJokesIntakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesIntakeApp.swift; sourceTree = "<group>"; };
-		A7BADC0D2C8C30C00038C553 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7BADC0F2C8C30C10038C553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7BADC122C8C30C10038C553 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7BADC342C8C34D70038C553 /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		A7BADC372C8C35470038C553 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A7BADC392C8C35820038C553 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		A7BADC3B2C8C35C70038C553 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A7BADC3D2C8C35CE0038C553 /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		A7BADC3F2C8C38720038C553 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
+		A7BADC412C8C392C0038C553 /* JokeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeScreen.swift; sourceTree = "<group>"; };
+		A7BADC4D2C8C45B30038C553 /* pes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = pes.riv; sourceTree = "<group>"; };
+		A7BADC4F2C8C4A850038C553 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		A7BADC542C8C52010038C553 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BADC1B2C8C31200038C553 /* Alamofire in Frameworks */,
+				A7BADC452C8C42650038C553 /* RiveRuntime in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +86,12 @@
 		A7BADC0A2C8C30C00038C553 /* DadJokesIntake */ = {
 			isa = PBXGroup;
 			children = (
+				A7BADC532C8C51F90038C553 /* Helper */,
+				A7BADC462C8C429C0038C553 /* Resources */,
+				A7BADC362C8C35350038C553 /* Constant */,
+				A7BADC312C8C34350038C553 /* Data */,
+				A7BADC302C8C34260038C553 /* Presentation */,
 				A7BADC0B2C8C30C00038C553 /* DadJokesIntakeApp.swift */,
-				A7BADC0D2C8C30C00038C553 /* ContentView.swift */,
-				A7BADC0F2C8C30C10038C553 /* Assets.xcassets */,
 				A7BADC112C8C30C10038C553 /* Preview Content */,
 			);
 			path = DadJokesIntake;
@@ -67,6 +105,108 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		A7BADC2D2C8C340A0038C553 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC3B2C8C35C70038C553 /* APIClient.swift */,
+				A7BADC3D2C8C35CE0038C553 /* APIRouter.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A7BADC2E2C8C34180038C553 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC342C8C34D70038C553 /* Joke.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7BADC2F2C8C341C0038C553 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC3F2C8C38720038C553 /* JokeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A7BADC302C8C34260038C553 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC332C8C34460038C553 /* Component */,
+				A7BADC322C8C343F0038C553 /* Screen */,
+				A7BADC2F2C8C341C0038C553 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		A7BADC312C8C34350038C553 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC2E2C8C34180038C553 /* Model */,
+				A7BADC2D2C8C340A0038C553 /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A7BADC322C8C343F0038C553 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC412C8C392C0038C553 /* JokeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		A7BADC332C8C34460038C553 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC4F2C8C4A850038C553 /* JokeView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		A7BADC362C8C35350038C553 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC372C8C35470038C553 /* Constant.swift */,
+				A7BADC392C8C35820038C553 /* Enum.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		A7BADC462C8C429C0038C553 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC472C8C42A70038C553 /* Animation */,
+				A7BADC0F2C8C30C10038C553 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7BADC472C8C42A70038C553 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC482C8C42AC0038C553 /* Rive */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		A7BADC482C8C42AC0038C553 /* Rive */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC4D2C8C45B30038C553 /* pes.riv */,
+			);
+			path = Rive;
+			sourceTree = "<group>";
+		};
+		A7BADC532C8C51F90038C553 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A7BADC542C8C52010038C553 /* Logger.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,12 +217,17 @@
 				A7BADC042C8C30C00038C553 /* Sources */,
 				A7BADC052C8C30C00038C553 /* Frameworks */,
 				A7BADC062C8C30C00038C553 /* Resources */,
+				A7BADC2A2C8C32DF0038C553 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = DadJokesIntake;
+			packageProductDependencies = (
+				A7BADC1A2C8C31200038C553 /* Alamofire */,
+				A7BADC442C8C42650038C553 /* RiveRuntime */,
+			);
 			productName = DadJokesIntake;
 			productReference = A7BADC082C8C30C00038C553 /* DadJokesIntake.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +256,10 @@
 				Base,
 			);
 			mainGroup = A7BADBFF2C8C30C00038C553;
+			packageReferences = (
+				A7BADC192C8C31200038C553 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A7BADC432C8C42650038C553 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
 			productRefGroup = A7BADC092C8C30C00038C553 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7BADC4E2C8C45B30038C553 /* pes.riv in Resources */,
 				A7BADC132C8C30C10038C553 /* Preview Assets.xcassets in Resources */,
 				A7BADC102C8C30C10038C553 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BADC0E2C8C30C00038C553 /* ContentView.swift in Sources */,
+				A7BADC552C8C52010038C553 /* Logger.swift in Sources */,
+				A7BADC352C8C34D70038C553 /* Joke.swift in Sources */,
+				A7BADC422C8C392C0038C553 /* JokeScreen.swift in Sources */,
 				A7BADC0C2C8C30C00038C553 /* DadJokesIntakeApp.swift in Sources */,
+				A7BADC402C8C38720038C553 /* JokeViewModel.swift in Sources */,
+				A7BADC502C8C4A850038C553 /* JokeView.swift in Sources */,
+				A7BADC3A2C8C35820038C553 /* Enum.swift in Sources */,
+				A7BADC382C8C35470038C553 /* Constant.swift in Sources */,
+				A7BADC3C2C8C35C70038C553 /* APIClient.swift in Sources */,
+				A7BADC3E2C8C35CE0038C553 /* APIRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,21 +433,28 @@
 				DEVELOPMENT_TEAM = 7YWWN4M3Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pes Joke";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bar.alja.DadJokesIntake;
+				PRODUCT_BUNDLE_IDENTIFIER = bar.alja.pesjoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,21 +469,28 @@
 				DEVELOPMENT_TEAM = 7YWWN4M3Y9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pes Joke";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = bar.alja.DadJokesIntake;
+				PRODUCT_BUNDLE_IDENTIFIER = bar.alja.pesjoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -344,6 +516,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7BADC192C8C31200038C553 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		A7BADC432C8C42650038C553 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7BADC1A2C8C31200038C553 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7BADC192C8C31200038C553 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A7BADC442C8C42650038C553 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7BADC432C8C42650038C553 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A7BADC002C8C30C00038C553 /* Project object */;
 }
