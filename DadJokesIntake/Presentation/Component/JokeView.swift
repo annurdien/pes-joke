@@ -16,7 +16,7 @@ struct JokeView: View {
     
     var body: some View {
         VStack {
-            Text(joke?.joke ?? "Touch Pes for Joke")
+            Text(joke?.joke ?? "Touch Pes to get joke")
                 .font(.title2)
                 .foregroundStyle(.pesBlack)
                 .fontDesign(.serif)

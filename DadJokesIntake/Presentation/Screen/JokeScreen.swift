@@ -13,7 +13,8 @@ struct JokeScreen: View {
     
     var body: some View {
         ZStack {
-            Color(.fatherlyChcholate).ignoresSafeArea()
+            Color(.fatherlyChcholate)
+                .ignoresSafeArea()
             VStack {
                 Spacer()
                 JokeView(joke: vm.joke)
@@ -24,6 +25,11 @@ struct JokeScreen: View {
                     .frame(width: 250, height: 250)
                     .onTapGesture(perform: vm.getJoke)
             }
+        }.alert(
+            "Ups, something went wrong!",
+            isPresented: $vm.shouldShowError
+        ) { Button("OK") {} } message: {
+            Text(vm.errorMessage ?? "Something went wrong, try again later!")
         }
     }
 }

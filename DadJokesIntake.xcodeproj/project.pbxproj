@@ -21,7 +21,6 @@
 		A7BADC452C8C42650038C553 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = A7BADC442C8C42650038C553 /* RiveRuntime */; };
 		A7BADC4E2C8C45B30038C553 /* pes.riv in Resources */ = {isa = PBXBuildFile; fileRef = A7BADC4D2C8C45B30038C553 /* pes.riv */; };
 		A7BADC502C8C4A850038C553 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC4F2C8C4A850038C553 /* JokeView.swift */; };
-		A7BADC552C8C52010038C553 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BADC542C8C52010038C553 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,7 +50,6 @@
 		A7BADC412C8C392C0038C553 /* JokeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeScreen.swift; sourceTree = "<group>"; };
 		A7BADC4D2C8C45B30038C553 /* pes.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = pes.riv; sourceTree = "<group>"; };
 		A7BADC4F2C8C4A850038C553 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
-		A7BADC542C8C52010038C553 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +84,6 @@
 		A7BADC0A2C8C30C00038C553 /* DadJokesIntake */ = {
 			isa = PBXGroup;
 			children = (
-				A7BADC532C8C51F90038C553 /* Helper */,
 				A7BADC462C8C429C0038C553 /* Resources */,
 				A7BADC362C8C35350038C553 /* Constant */,
 				A7BADC312C8C34350038C553 /* Data */,
@@ -199,14 +196,6 @@
 			path = Rive;
 			sourceTree = "<group>";
 		};
-		A7BADC532C8C51F90038C553 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				A7BADC542C8C52010038C553 /* Logger.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,7 +276,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BADC552C8C52010038C553 /* Logger.swift in Sources */,
 				A7BADC352C8C34D70038C553 /* Joke.swift in Sources */,
 				A7BADC422C8C392C0038C553 /* JokeScreen.swift in Sources */,
 				A7BADC0C2C8C30C00038C553 /* DadJokesIntakeApp.swift in Sources */,
